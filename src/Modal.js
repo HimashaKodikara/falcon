@@ -1,4 +1,4 @@
-// src/Modal.js
+
 import React from 'react';
 
 const Modal = ({ image, onClose }) => {
