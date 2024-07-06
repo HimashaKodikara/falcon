@@ -22,7 +22,7 @@ const Gallery = ({ categories, images }) => {
         ))}
       </div>
 
-      <div className="image-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 ">
+      <div className="image-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 lg:mx-10 ">
         {filteredImages.map(image => (
           <div key={image.src} className="image-item" onClick={() => setSelectedImage(image)}>
             <div className="w-60 h-full overflow-hidden rounded-2xl shadow-lg">

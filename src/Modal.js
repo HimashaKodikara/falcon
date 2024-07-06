@@ -15,7 +15,7 @@ const Modal = ({ image, onClose }) => {
           </svg>
         </button>
         <img src={image.src} alt={image.description} className="mx-auto max-h-full max-w-3xl rounded-lg" />
-        <p className="mt-4 text-center">{image.description}</p>
+       
       </div>
     </div>
   );

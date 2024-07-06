@@ -13,13 +13,16 @@ import E4 from './images/EV/E4.jpg';
 import E5 from './images/EV/E5.jpg';
 import E6 from './images/EV/E6.jpg';
 import B1 from './images/Formula/B1.jpg';
-import B2 from './images/Formula/B1.jpg';
-import B3 from './images/Formula/B1.jpg';
-import B4 from './images/Formula/B1.jpg';
-
+import B2 from './images/Formula/B2.jpg';
+import B3 from './images/Formula/B3.jpg';
+import B4 from './images/Formula/B4.jpg';
+import B5 from './images/Formula/B5.jpg';
+import B6 from './images/Formula/B6.jpg';
+import B7 from './images/Formula/B7.jpg';
+import B8 from './images/Formula/B8.jpg';
 
 const App = () => {
-  const categories = ['EXMO', 'EV Exhibition', 'Formula Bharat', 'People', 'Animals'];
+  const categories = ['EXMO', 'EV Exhibition', 'Formula Bharat', 'Test phase-1', 'Animals'];
 
   const images = [
     { src: F1, description: 'Falcon on road', category: 'EXMO' },
@@ -33,10 +36,13 @@ const App = () => {
     { src: E5, description: 'Modern technology', category: 'EV Exhibition' },
     { src: E6, description: 'Modern technology', category: 'EV Exhibition' },
     { src: B1, description: 'Modern technology', category: 'Formula Bharat' }, 
-     { src: E6, description: 'Modern technology', category: 'Formula Bharat' },
-     { src: E6, description: 'Modern technology', category: 'Formula Bharat' },
-     { src: E6, description: 'Modern technology', category: 'Formula Bharat' },
-     { src: E6, description: 'Modern technology', category: 'Formula Bharat' },
+     { src: B2, description: 'Modern technology', category: 'Formula Bharat' },
+     { src: B3, description: 'Modern technology', category: 'Formula Bharat' },
+     { src: B4, description: 'Modern technology', category: 'Formula Bharat' },
+     { src: B5, description: 'Modern technology', category: 'Formula Bharat' },
+     { src: B6, description: 'Modern technology', category: 'Formula Bharat' },
+     { src: B7, description: 'Modern technology', category: 'Formula Bharat' },
+     { src: B8, description: 'Modern technology', category: 'Formula Bharat' },
   ];
 
   return (
