@@ -5,7 +5,7 @@ import Gallery from './Gallery';
 import F1 from './images/F1.jpg';
 
 const App = () => {
-  const categories = ['Nature', 'Technology', 'Architecture', 'People', 'Animals'];
+  const categories = ['EXMO', 'Technology', 'Architecture', 'People', 'Animals'];
 
   const images = [
     { src: F1, description: 'A beautiful forest', category: 'Nature' },

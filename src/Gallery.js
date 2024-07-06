@@ -25,10 +25,11 @@ const Gallery = ({ categories, images }) => {
       <div className="image-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {filteredImages.map(image => (
           <div key={image.src} className="image-item" onClick={() => setSelectedImage(image)}>
-            <div className="w-10 h-5 overflow-hidden rounded-2xl shadow-lg">
-              <img src={image.src} alt={image.description} className="w-10 h-10 object-cover" />
+            <div className="w-60 h-full overflow-hidden rounded-2xl shadow-lg">
+              <img src={image.src} alt={image.description} className=" w-auto h-auto object-cover" />
+              <p className="text-center mt-2">{image.description}</p>
             </div>
-            <p className="text-center mt-2">{image.description}</p>
+            
           </div>
         ))}
       </div>
