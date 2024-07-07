@@ -10,7 +10,7 @@ const Gallery = ({ categories, images }) => {
 
   return (
     <div className="gallery-container">
-      <div className="flex flex-wrap justify-center p-4 space-x-2">
+      <div className="flex flex-wrap justify-center p-4 space-x-2 shadow-xl bg-slate-300">
         {categories.map(category => (
           <button
             key={category}
