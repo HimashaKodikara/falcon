@@ -1,7 +1,5 @@
-
 import './App.css';
 import Gallery from './Gallery';
-
 import E1 from './images/EV/E1.jpg';
 import E2 from './images/EV/E2.jpg';
 import E3 from './images/EV/E3.jpg';
