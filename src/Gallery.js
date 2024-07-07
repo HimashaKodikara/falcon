@@ -10,7 +10,7 @@ const Gallery = ({ categories, images }) => {
 
   return (
     <div className="gallery-container">
-      <div className="category-nav flex space-x-4 p-4">
+      <div className="flex p-4 space-x-4 category-nav">
         {categories.map(category => (
           <button
             key={category}
@@ -22,12 +22,12 @@ const Gallery = ({ categories, images }) => {
         ))}
       </div>
 
-      <div className="image-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4 lg:mx-10 ">
+      <div className="grid grid-cols-1 gap-4 p-4 image-grid sm:grid-cols-2 lg:grid-cols-4 lg:mx-10 ">
         {filteredImages.map(image => (
           <div key={image.src} className="image-item" onClick={() => setSelectedImage(image)}>
-            <div className="w-60 h-full overflow-hidden rounded-2xl shadow-lg">
-              <img src={image.src} alt={image.description} className=" w-auto h-auto object-cover" />
-              <p className="text-center mt-2">{image.description}</p>
+            <div className="h-full overflow-hidden shadow-lg w-60 rounded-2xl">
+              <img src={image.src} alt={image.description} className="object-cover w-auto h-auto " />
+              <p className="my-2 font-serif text-center ">{image.description}</p>
             </div>
             
           </div>
